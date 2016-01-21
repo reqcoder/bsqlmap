@@ -13,7 +13,7 @@ def SQLInjection(a):
     tables = raw_input('[?]Hangi Tabloya giris yapacaksiniz? \n +')
     os.system(cls)
     os.system(inj+a+' -D '+dbs+' -T'+tables+' --columns')
-    dumping = raw_input([?]Hangi Kolonlari Kiracaksiniz birden fazla kolon kiracaksaniz? \n[!]Virgulle ayirarak yaziniz. \n +)
+    dumping = raw_input('[?]Hangi Kolonlari Kiracaksiniz birden fazla kolon kiracaksaniz? \n[!]Virgulle ayirarak yaziniz. \n +')
     os.system(cls)
     os.system(inj+a+' -D'+dbs+' -T'+tables+' -C'+dumping+' --dump')
 
